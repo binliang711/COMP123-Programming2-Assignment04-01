@@ -5,7 +5,7 @@
  * Revision	History:
  * 1.Debug successfully.
  * 2.Improve comments.
- *
+ * 3.Improve output.
  */
 using System;
 using System.Collections.Generic;
@@ -55,10 +55,12 @@ namespace COM123_Programming2_Assignment04_01
 
         private static void waitForAnyKey()
         {
-            Console.Write("\n");
-            Console.WriteLine("++++++++++++++++++++++++++++++");
-            Console.WriteLine("Please hit any key to exit....");
+            Console.WriteLine();
+            Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+            Console.WriteLine("+++                  Press any key to continue...             +++");
+            Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
             Console.ReadKey();
+            Console.Clear();
         }
     }
 }
